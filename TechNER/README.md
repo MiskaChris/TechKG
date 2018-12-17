@@ -1,5 +1,5 @@
 # TechNER
-To evaluate the adaptability of TechKG on the task of distantly supervised NER, we select the "BiLSTM+CRF" [(Lin et al., 2016)](https://arxiv.org/pdf/1603.01360.pdf) model as the baseline method. The source codes of this paper is available at: https://github.com/glample/tagger.
+To evaluate the adaptability of TechKG on the task of distantly supervised NER, we select the "BiLSTM+CRF" [(Guillaume et al., 2016)](https://arxiv.org/pdf/1603.01360.pdf) model as the baseline method. The source codes of this paper is available at: https://github.com/glample/tagger.
 
 ## Dataset
 
