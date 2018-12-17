@@ -1,5 +1,5 @@
 # TechRE
-To evaluate the adaptability of TechKG on the task of distantly supervised RE, we select the "*PCNN*+*ATT*" [(Lin et al., 2016)](http://aclweb.org/anthology/P/P16/P16-1200.pdf) model as the baseline method. The source codes for this paper is available at: https://github.com/thunlp/NRE.
+To evaluate the adaptability of TechKG on the task of distantly supervised RE, we select the "*PCNN*+*ATT*" [(Lin et al., 2016)](http://aclweb.org/anthology/P/P16/P16-1200.pdf) model as the baseline method. The source codes of this paper is available at: https://github.com/thunlp/NRE.
 ## Dataset
 We utilize distant supervision to automatically generate relation extraction dataset [TechRE](http://www.techkg.cn/). In the TechRE there are 2 possible relationships including *hierarchical* relation and NA relation.The dataset of TechRE can be obtained from http://www.techkg.cn/.
 ## Requirements
