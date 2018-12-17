@@ -13,6 +13,6 @@ CUDA_VISIBLE_DEVICES=0 python main.py model ConvE dataset Electric_original \
 ```
 will run a ConvE model on Electric_original.
 ## Notes
-Due to the size of the file transferred on github, we cannot transfer the complete file. If you want to get the complete data set, please contact renfeiliang@cse.neu.edu.cn or 284165389@qq.com
+Because GitHub has limitations on the size of uploaded files, we can't upload the whole datasets used in our experimens. If you want to get the entire data set, please contact renfeiliang@cse.neu.edu.cn or 284165389@qq.com
 
 
