@@ -13,14 +13,14 @@ We utilize distant supervision to automatically generate training data and testi
 1. Install TensorFlow
 2. Download the 0penNRE-master 
 3. Download TechRE dataset from `http://www.techkg.cn/`
-4. Extract dataset to `./tech_base`
+4. Extract dataset to `./origin_data`
 ## Running 
 ### Process Data 
 
 ```bash
 python gen_data_python3.py
 ```
-The processed data will be stored in `./techbase_data`
+The processed data will be stored in `./data`
 ### Train Model
 ```
 python train.py --model_name pcnn_att --gpu 0
