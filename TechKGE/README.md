@@ -1,4 +1,4 @@
-# Tech_KGE
+# TechKGE
 In our Tech_KGE, we select [ConvE(Dettmers, 2018)](https://arxiv.org/abs/1707.01476), one of the latest state-of-the-art KGE methods as baseline.The [source codes](https://github.com/TimDettmers/ConvE) for this paper is available.
 ## Installation
 1. Install [PyTorch](https://github.com/pytorch/pytorch) using [Anaconda](https://www.continuum.io/downloads). 
