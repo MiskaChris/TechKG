@@ -4,11 +4,11 @@ import json
 import os
 
 # folder of training datasets
-data_path = "./tech_base/"
+data_path = "./origin_data/"
 # files to export data
-export_path = "./techbase_data/"
-if not os.path.exists('./techbase_data'):
-    os.mkdir('./techbase_data')
+export_path = "./data/"
+if not os.path.exists('./data'):
+    os.mkdir('./data')
 #length of sentence
 fixlen = 120
 #max length of position embedding is 100 (-100~+100)
