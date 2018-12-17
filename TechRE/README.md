@@ -15,7 +15,7 @@ We utilize distant supervision to automatically generate training data and testi
 3. Download TechRE dataset from `http://www.techkg.cn/`
 4. Extract dataset to `./tech_base`
 ## Running 
-### Process Data
+### Process Data 
 
 ```bash
 python gen_data_python3.py
