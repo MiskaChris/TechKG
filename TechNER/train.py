@@ -17,15 +17,15 @@ from model import Model
 # Read parameters from command line
 optparser = optparse.OptionParser()
 optparser.add_option(
-    "-T", "--train", default="./dataset/transport3.7w/transport_train3.7.txt",
+    "-T", "--train", default="",
     help="Train set location"
 )
 optparser.add_option(
-    "-d", "--dev", default="./dataset/transport3.7w/transport_valid3.7.txt",
+    "-d", "--dev", default="",
     help="Dev set location"
 )
 optparser.add_option(
-    "-t", "--test", default="./dataset/transport3.7w/transport_test3.7.txt",
+    "-t", "--test", default="",
     help="Test set location"
 )
 optparser.add_option(
