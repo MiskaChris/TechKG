@@ -8,9 +8,9 @@ import json
 from sklearn.metrics import average_precision_score
 import sys
 
-tf.app.flags.DEFINE_string('export_path','./techbase_data','path to data')
+tf.app.flags.DEFINE_string('export_path','./data','path to data')
 
-config_file = open(os.path.join('techbase_data', "config"), 'r')
+config_file = open(os.path.join('data', "config"), 'r')
 config = json.loads(config_file.read())
 config_file.close()
 
